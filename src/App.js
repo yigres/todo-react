@@ -16,6 +16,10 @@ function App() {
       text: 'Деплой React-приложения',
       completed: true,
     },
+    {
+      text: 'Загрузил проект на Vercel и Netlify',
+      completed: true,
+    },
   ]);
 
   const onToggleCompleted = (index) => {
